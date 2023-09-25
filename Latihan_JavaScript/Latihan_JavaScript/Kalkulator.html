@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                <label for="bilangan1">Bilangan 1</label>
+                <br />
+                <input type="text" id="bilangan1" />
+            </td>
+            <td>
+                <label for="bilangan2">Bilangan 2</label>
+                <br />
+                <input type="text" id="bilangan2" />
+            </td>
+            <td>
+                <label for="hasil">Hasil</label>
+                <br />
+                <input type="text" id="hasil" />
+            </td>
+        </tr>
+    </table>
+    <br />
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                <input type="button" id="jumlah" value="+" style="width: 100%;" onclick="tambah()" />
+            </td>
+            <td>
+                <input type="button" id="kurang" value="-" style="width: 100%;" onclick="kurang()" />
+            </td>
+            <td>
+                <input type="button" id="kali" value="x" style="width: 100%;" onclick="kali()" />
+            </td>
+            <td>
+                <input type="button" id="bagi" value=":" style="width: 100%;" onclick="bagi()" />
+            </td>
+            <td>
+                <input type="button" id="pangkat" value="^" style="width: 100%;" onclick="pangkat()" />
+            </td>
+        </tr>
+    </table>
+    <br />
+
+    <input type="button" id="cek" value="Cek Angka" onclick="cekangka()" />
+
+    <br />
+
+    <p id="output1" class="myclass"></p>
+    <p id="output2" class="myclass"></p>
+    <p id="output3" class="myclass"></p>
+    <p id="output4" class="myclass"></p>
+    <p id="output5" class="myclass"></p>
+    <p id="output6" class="myclass"></p>
+
+</body>
+</html>

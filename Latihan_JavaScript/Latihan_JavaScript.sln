@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_JavaScript", "Latihan_JavaScript\Latihan_JavaScript.csproj", "{A29E859F-5C3B-4D22-B3AD-B9FD1EA114DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A29E859F-5C3B-4D22-B3AD-B9FD1EA114DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29E859F-5C3B-4D22-B3AD-B9FD1EA114DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29E859F-5C3B-4D22-B3AD-B9FD1EA114DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29E859F-5C3B-4D22-B3AD-B9FD1EA114DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D51FFAE8-1C46-4D67-A483-5B04543E9C43}
+	EndGlobalSection
+EndGlobal
